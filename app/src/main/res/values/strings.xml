@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rock Paper Scissors App</string>
+    <string name="rock">rock</string>
+    <string name="paper">paper</string>
+    <string name="scissors">scissors</string>
+
+</resources>
