@@ -39,6 +39,14 @@ public class GameActivity extends AppCompatActivity {
         win.setText(result);
         computerResult.setText(computerStringChoose);
 
+        Integer playerWins = gameLogic.getPlayerWins();
+        TextView playerWins2 = findViewById(R.id.player_wins);
+        playerWins2.setText(playerWins.toString());
+
+        Integer computerWins = gameLogic.getComputerWins();
+        TextView computerWins2 = findViewById(R.id.computer_wins);
+        computerWins2.setText(computerWins.toString());
+
     }
 
 }
