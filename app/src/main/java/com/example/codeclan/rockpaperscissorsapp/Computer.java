@@ -32,5 +32,7 @@ public class Computer {
     }
 
 
-
+    public String stringChoose() {
+        return "computer chooses " + randomAnswer();
+    }
 }

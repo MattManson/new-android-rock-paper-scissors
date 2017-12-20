@@ -31,14 +31,14 @@ public class GameActivity extends AppCompatActivity {
 
         String computerChoice = computer.randomAnswer();
         String result = gameLogic.play(computerChoice, userInput);
+        String computerStringChoose = computer.stringChoose();
 
         TextView win = findViewById(R.id.win);
         TextView computerResult = findViewById(R.id.computer_hand);
 
         win.setText(result);
-        computerResult.setText(computerChoice);
+        computerResult.setText(computerStringChoose);
 
     }
-
 
 }

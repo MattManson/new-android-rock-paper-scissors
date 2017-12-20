@@ -28,4 +28,9 @@ public class ComputerTest {
     public void canGetRandomAnswer(){
         assertEquals("rock", computer.randomAnswer());
     }
+
+    @Test
+    public void canComputerChoose(){
+        assertEquals("computer chooses rock", computer.stringChoose());
+    }
 }
